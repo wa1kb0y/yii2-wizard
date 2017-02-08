@@ -619,6 +619,8 @@ class WizardBehavior extends Behavior
                 return $step;
             }
         }
+
+        return false;
     }
 
     /**
